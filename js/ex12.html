@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(14, 48, 92);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            margin-top: 20px;
+            text-align: center;
+        }
+        #box{
+            background: rgb(119, 133, 172);
+            box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+            border-radius: 10px;
+            margin-top: 50px;
+            width: 500px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>digite 5 números</h1>
+        <div>
+            <label for="txtn">Digite o numero e adcione</label>
+            <input type="number" name="txtn" id="txtn" placeholder="digite aqui..." >
+            <input type="button" value="adcionar" onclick="adcionar()">
+        </div>
+        <div>
+            <select name="nums" id="nums" size="6" style="width: 150px;">
+                <option value="n">Números:</option>
+            </select>
+            <input type="button" value="calcular" onclick="calcular()">
+            <p id="result"></p>
+        </div>
+    </div>
+    <script>
+    </script>
+</body>
+</html>

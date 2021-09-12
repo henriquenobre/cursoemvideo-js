@@ -1,0 +1,34 @@
+body{
+    background: rgb(144, 193, 241);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+    width: 500px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#result{
+    padding-top: 20px;
+    text-align: start;
+    margin-left: 10px;
+}
+#num{
+    width: 200px;
+    
+}
+#expl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#expl li{
+    text-align: start;
+}
